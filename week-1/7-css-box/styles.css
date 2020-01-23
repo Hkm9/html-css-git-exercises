@@ -1,6 +1,19 @@
 /* Try different box model properties below */
+body{
+  background-color: #d3d3d3;
+}
 .pages__page {
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+}
+
+li{
+  list-style-type: none;
+  background-color: white;
+  margin: 10px;
+  border: 1px solid none;
+  width: 50vw;
+  padding: 10px;
+  font-weight: bold;
 }
